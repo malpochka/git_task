@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class HelloWorld {
     @EventListener(ApplicationReadyEvent.class)
-    public void hi() {
-        System.out.println("Hi");
+    public void hello(){
+        System.out.println("Hello");
     }
 }
